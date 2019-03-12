@@ -18,63 +18,54 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Toolbox.cpp">
+    <ClCompile Include="PointCloudLabel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SkeletonConfidenceRatingMethod.cpp">
+    <ClCompile Include="include\Mesh\BaseModel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GraspPlan.cpp">
+    <ClCompile Include="include\Mesh\Point3D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Skeleton.cpp">
+    <ClCompile Include="include\tinyxml\tinystr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LSEllipse.cpp">
+    <ClCompile Include="include\tinyxml\tinyxml.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SkeletonApproachMovement.cpp">
+    <ClCompile Include="include\tinyxml\tinyxmlerror.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DeciderGraspPreshape.cpp">
+    <ClCompile Include="include\tinyxml\tinyxmlparser.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GraspPlanner.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SkeletonAnalyzer.cpp">
+    <ClCompile Include="include\GraspXml.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Toolbox.h">
+    <ClInclude Include="PointCloudLabel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SkeletonConfidenceRatingMethod.h">
+    <ClInclude Include="include\Graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GraspPlan.h">
+    <ClInclude Include="include\Mesh\BaseModel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Skeleton.h">
+    <ClInclude Include="include\Mesh\Parameters.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LSEllipse.h">
+    <ClInclude Include="include\Mesh\Point3D.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SkeletonApproachMovement.h">
+    <ClInclude Include="include\tinyxml\tinystr.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DeciderGraspPreshape.h">
+    <ClInclude Include="include\tinyxml\tinyxml.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GraspPlanner.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="SkeletonAnalyzer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="StructClass.h">
+    <ClInclude Include="include\GraspXml.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
